@@ -288,7 +288,7 @@ class MacOsXJavaLocation(UnixJavaLocation):
 
 class AndroidJavaLocation(UnixJavaLocation):
     def get_libraries(self):
-        return ['SDL2', 'log']
+        return ['log']
 
     def get_include_dirs(self):
         # When cross-compiling for Android, we should not use the include dirs
